@@ -1,0 +1,5 @@
+id,date,amount,type
+1,2025-01-02,5000,deposit
+2,2025-01-05,2000,withdrawal
+3,2025-01-10,12000,deposit
+4,2025-01-15,1500,withdrawal
