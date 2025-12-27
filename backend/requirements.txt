@@ -1,0 +1,5 @@
+fastapi
+uvicorn
+pathway
+google-generativeai
+python-multipart
