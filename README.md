@@ -1,6 +1,6 @@
-# Synaptix AI - Real-Time Intelligence Agent 🚀
+# ApexEdge - Real-Time Intelligence Agent 🚀
 
-Synaptix is a high-performance, reactive **RAG (Retrieval-Augmented Generation)** system built for the **Synaptix Frontier AI Hackathon**. By combining **Pathway's streaming data engine** with **Google Gemini 1.5 Flash**, Synaptix provides an agent that stays updated with live data—no manual re-indexing required.
+ApexEdge is a high-performance, reactive **RAG (Retrieval-Augmented Generation)** system built for the **Synaptix Frontier AI Hackathon**. By combining **Pathway's streaming data engine** with **Google Gemini 1.5 Flash**, ApexEdge provides an agent that stays updated with live data—no manual re-indexing required.
 
 ---
 
@@ -10,7 +10,7 @@ Traditional LLMs and RAG systems suffer from a **knowledge cutoff**. When files 
 ---
 
 ## 💡 Solution
-Synaptix uses Pathway to create a live streaming pipeline that monitors local directories. As soon as a `.txt` or `.pdf` file is added or edited, the context is instantly updated and available for **Gemini 1.5 Flash** to reason over.
+ApexEdge uses Pathway to create a live streaming pipeline that monitors local directories. As soon as a `.txt` or `.pdf` file is added or edited, the context is instantly updated and available for **Gemini 1.5 Flash** to reason over.
 
 ---
 
@@ -57,8 +57,8 @@ Upload multiple files (PDFs, Images, Text) using the **"+" button**. Files appea
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/harivenkat06/synaptix-frontier-ai-hack.git
-cd synaptix-frontier-ai-hack
+git clone https://github.com/harivenkat06/apexedge.git
+cd apexedge
 ```
 
 ### 2️⃣ Setup Backend
@@ -110,7 +110,7 @@ npm run dev
 
 ## 📂 Project Structure
 ```bash
-synaptix-frontier-ai-hack/
+apexedge/
 ├── backend/
 │   ├── app.py             # FastAPI entry point
 │   ├── agent.py           # Gemini interaction logic

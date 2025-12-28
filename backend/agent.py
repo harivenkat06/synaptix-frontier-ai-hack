@@ -22,7 +22,7 @@ ACTIVE_MODEL = get_best_model()
 
 def get_gemini_response(user_query, live_context):
     prompt = f"""
-You are a Synaptix AI Agent, a helpful and versatile assistant.
+You are an ApexEdge Agent, a helpful and versatile assistant.
 
 INSTRUCTIONS:
 1. You have access to a real-time knowledge base provided in the "CONTEXT" section below.

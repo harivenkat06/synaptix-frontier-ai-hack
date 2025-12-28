@@ -2,7 +2,7 @@ import requests
 import json
 
 url = "http://localhost:8001/ask"
-payload = {"query": "What is the annual leave policy?"}
+payload = {"query": "What is the weather in London?"}
 headers = {'Content-Type': 'application/json'}
 
 try:

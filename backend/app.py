@@ -6,7 +6,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from agent import get_gemini_response
 from gemini_index import start_pathway_pipeline
 
-app = FastAPI(title="Synaptix Pathway Agent")
+app = FastAPI(title="ApexEdge Agent")
 
 # Add CORS middleware for development (allow all origins)
 app.add_middleware(

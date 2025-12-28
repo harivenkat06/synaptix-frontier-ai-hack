@@ -6,7 +6,7 @@ import remarkGfm from "remark-gfm";
 function App() {
   const [query, setQuery] = useState("");
   const [chatHistory, setChatHistory] = useState([
-    { role: "bot", text: "Hello! I'm your **Synaptix** AI agent.  \nI have access to real-time data. How can I help you today?" }
+    { role: "bot", text: "Hello! I'm your **ApexEdge** agent.  \nI have access to real-time data. How can I help you today?" }
   ]);
   const [loading, setLoading] = useState(false);
   const chatEndRef = useRef(null);
@@ -94,7 +94,7 @@ function App() {
 
   return (
     <div className="container">
-      <h1>Synaptix AI</h1>
+      <h1>ApexEdge</h1>
 
       <div className="chat-box">
         {chatHistory.map((msg, index) => (
