@@ -42,6 +42,25 @@ Upload multiple files (PDFs, Images, Text) using the **"+" button**. Files appea
 
 <img width="1917" height="967" alt="image" src="https://github.com/user-attachments/assets/8c3632a0-917b-4b7f-8c42-49cafa6dff1e" />
 
+ ### 3. Dynamic Data Update 
+ Initial State:
+ 
+<img width="313" height="84" alt="Screenshot from 2025-12-28 14-00-07" src="https://github.com/user-attachments/assets/fb2c4331-9487-4899-ba5a-34e8f80ecd51" />
+
+Result
+<img width="1920" height="971" alt="Screenshot from 2025-12-28 14-00-49" src="https://github.com/user-attachments/assets/cd071e75-e697-48ab-8c61-74a35a0100a8" />
+
+Updated State:
+
+<img width="304" height="84" alt="Screenshot from 2025-12-28 14-02-06" src="https://github.com/user-attachments/assets/bd54f2bc-a858-4525-a0bb-f6372ac24db9" />
+
+Result
+<img width="1920" height="962" alt="Screenshot from 2025-12-28 14-02-35" src="https://github.com/user-attachments/assets/13101126-314e-4f11-bd2f-017a338b4bfe" />
+
+
+
+
+ 
 
 ---
 
