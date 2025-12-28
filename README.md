@@ -34,12 +34,14 @@ Synaptix uses Pathway to create a live streaming pipeline that monitors local di
 ### 1. Modern Chat Interface
 A clean, glassmorphism-inspired UI designed for focus.
 
-![Chat Interface](screenshots/ui_overview.png)
+<img width="1917" height="967" alt="image" src="https://github.com/user-attachments/assets/1a8fac10-7e6d-42c2-9bd3-39787be5f464" />
+
 
 ### 2. Seamless File Uploads
 Upload multiple files (PDFs, Images, Text) using the **"+" button**. Files appear as interactive cards instantly.
 
-![File Upload Cards](screenshots/file_upload.png)
+<img width="1917" height="967" alt="image" src="https://github.com/user-attachments/assets/8c3632a0-917b-4b7f-8c42-49cafa6dff1e" />
+
 
 ---
 
