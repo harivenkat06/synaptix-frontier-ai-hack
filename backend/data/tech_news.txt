@@ -1,0 +1,4 @@
+Tech News Update - Dec 28, 2025
+1. Synaptix AI releases new agentic model capable of real-time reasoning.
+2. Quantum computing breakthrough: stable qubits achieved at room temperature for 5 seconds.
+3. New programming language 'Flux' gains popularity for its memory safety and speed.

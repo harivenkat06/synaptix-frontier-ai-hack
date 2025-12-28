@@ -1,6 +1,6 @@
-# Real-Time AI Intelligence Agent 🚀
+# Synaptix AI - Real-Time Intelligence Agent 🚀
 
-It is a high-performance, reactive RAG (Retrieval-Augmented Generation) system built for the **Synaptix Frontier AI Hackathon**. By combining Pathway's streaming data engine with Google Gemini 1.5 Flash, Synaptix provides an agent that stays updated with live data—no manual re-indexing required.
+Synaptix is a high-performance, reactive **RAG (Retrieval-Augmented Generation)** system built for the **Synaptix Frontier AI Hackathon**. By combining **Pathway's streaming data engine** with **Google Gemini 1.5 Flash**, Synaptix provides an agent that stays updated with live data—no manual re-indexing required.
 
 ---
 
@@ -10,16 +10,46 @@ Traditional LLMs and RAG systems suffer from a **knowledge cutoff**. When files 
 ---
 
 ## 💡 Solution
-It uses Pathway to create a live streaming pipeline that monitors local directories. As soon as a `.txt` file is added or edited, the context is instantly updated and available for **Gemini 1.5 Flash** to reason over.
+Synaptix uses Pathway to create a live streaming pipeline that monitors local directories. As soon as a `.txt` or `.pdf` file is added or edited, the context is instantly updated and available for **Gemini 1.5 Flash** to reason over.
+
+---
+
+## ✨ Features
+
+- **⚡ Real-Time Knowledge**: Uses Pathway to monitor a data folder; as soon as you drop a file, the AI learns it instantly.
+- **🧠 Smart Fallback**: Answers from your documents first. If the info isn't there, it gracefully falls back to general knowledge.
+- **📁 Multi-Modal Support**: 
+    - **Text Documents** (`.txt`, `.md`, `.csv`)
+    - **PDFs** (Automatic extraction)
+    - **Images** (Visual analysis and description)
+- **🎨 Elegant UI**: A modern, dark-themed React interface with:
+    - Integrated **File Upload Cards**.
+    - Markdown rendering for rich chat responses.
+    - Smooth animations and user feedback.
+
+---
+
+## 📸 Demo & Screenshots
+
+### 1. Modern Chat Interface
+A clean, glassmorphism-inspired UI designed for focus.
+
+![Chat Interface](screenshots/ui_overview.png)
+
+### 2. Seamless File Uploads
+Upload multiple files (PDFs, Images, Text) using the **"+" button**. Files appear as interactive cards instantly.
+
+![File Upload Cards](screenshots/file_upload.png)
 
 ---
 
 ## 🛠️ Tech Stack
-- **AI Model:** Google Gemini 1.5 Flash  
-- **Data Engine:** Pathway  
-- **Backend:** FastAPI & Uvicorn  
-- **Frontend:** React & Vite  
-- **Security:** `python-dotenv` for environment variable management  
+
+- **AI Model:** Google Gemini 1.5 Flash
+- **Data Engine:** Pathway (Live Streaming RAG)
+- **Backend:** FastAPI & Python
+- **Frontend:** React, Vite & CSS Modules
+- **Security:** Environment variable management
 
 ---
 
@@ -30,20 +60,28 @@ It uses Pathway to create a live streaming pipeline that monitors local director
 git clone https://github.com/harivenkat06/synaptix-frontier-ai-hack.git
 cd synaptix-frontier-ai-hack
 ```
+
 ### 2️⃣ Setup Backend
+The backend handles the AI logic and file processing.
+
 ```bash
 cd backend
 
 # Install Python dependencies
 pip install -r requirements.txt
 
-# Create a .env file (copy from example and add your API key)
+# Create a .env file
+# Add your GEMINI_API_KEY inside this file
 cp .env.example .env
 
 # Run the backend server
-uvicorn app:app --reload
+python app.py
 ```
+*Server will run on `http://localhost:8001`*
+
 ### 3️⃣ Setup Frontend
+The frontend provides the interactive chat experience.
+
 ```bash
 cd ../frontend
 
@@ -53,20 +91,36 @@ npm install
 # Start the frontend
 npm run dev
 ```
-### 4️⃣ Folder Structure
+*Open `http://localhost:5173` in your browser.*
+
+---
+
+## 💡 How to Use
+
+1.  **Ask Questions**: Type any query in the chat bar.
+    *   *Example:* "What is the capital of France?" (General Knowledge)
+    *   *Example:* "Summarize the weather report?" (Context from file)
+2.  **Upload Data**: 
+    *   Click the **(+)** button on the bottom left.
+    *   Select one or more files (PDF, Text, Images).
+    *   See them appear as cards above the input.
+    *   Ask a question related to them immediately!
+
+---
+
+## 📂 Project Structure
 ```bash
 synaptix-frontier-ai-hack/
 ├── backend/
-│   ├── app.py
-│   ├── agent.py
-│   ├── gemini_index.py
-│   ├── requirements.txt
-│   └── .env.example
+│   ├── app.py             # FastAPI entry point
+│   ├── agent.py           # Gemini interaction logic
+│   ├── gemini_index.py    # Pathway RAG pipeline
+│   └── data/              # Live monitored data folder
 ├── frontend/
 │   ├── src/
-│   ├── package.json
-│   └── vite.config.js
-└── README.md
+│   │   ├── App.jsx        # Main UI Logic
+│   │   └── index.css      # Styling (Glassmorphism & Layout)
+└── screenshots/           # Demo images
 ```
 
 
