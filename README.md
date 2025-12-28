@@ -34,13 +34,13 @@ ApexEdge uses Pathway to create a live streaming pipeline that monitors local di
 ### 1. Modern Chat Interface
 A clean, glassmorphism-inspired UI designed for focus.
 
-<img width="1917" height="967" alt="image" src="https://github.com/user-attachments/assets/1a8fac10-7e6d-42c2-9bd3-39787be5f464" />
+<img width="1920" height="962" alt="image" src="https://github.com/user-attachments/assets/f2ecc054-cc88-4021-a50f-1c311214db9e" />
 
 
 ### 2. Seamless File Uploads
 Upload multiple files (PDFs, Images, Text) using the **"+" button**. Files appear as interactive cards instantly.
 
-<img width="1917" height="967" alt="image" src="https://github.com/user-attachments/assets/8c3632a0-917b-4b7f-8c42-49cafa6dff1e" />
+<img width="1920" height="962" alt="image" src="https://github.com/user-attachments/assets/f6ff0fa2-659a-41a9-b3db-a547e5677e62" />
 
  ### 3. Dynamic Data Update 
  Initial State:
@@ -48,14 +48,14 @@ Upload multiple files (PDFs, Images, Text) using the **"+" button**. Files appea
 <img width="313" height="84" alt="Screenshot from 2025-12-28 14-00-07" src="https://github.com/user-attachments/assets/fb2c4331-9487-4899-ba5a-34e8f80ecd51" />
 
 Result
-<img width="1920" height="971" alt="Screenshot from 2025-12-28 14-00-49" src="https://github.com/user-attachments/assets/cd071e75-e697-48ab-8c61-74a35a0100a8" />
+<img width="1920" height="962" alt="image" src="https://github.com/user-attachments/assets/3063df9c-a9bb-4290-a98e-a7fa85eb077a" />
 
 Updated State:
 
 <img width="304" height="84" alt="Screenshot from 2025-12-28 14-02-06" src="https://github.com/user-attachments/assets/bd54f2bc-a858-4525-a0bb-f6372ac24db9" />
 
 Result
-<img width="1920" height="962" alt="Screenshot from 2025-12-28 14-02-35" src="https://github.com/user-attachments/assets/13101126-314e-4f11-bd2f-017a338b4bfe" />
+<img width="1920" height="962" alt="image" src="https://github.com/user-attachments/assets/05d8cfcc-602e-4521-a5ca-c33d2169e7fa" />
 
 
 
